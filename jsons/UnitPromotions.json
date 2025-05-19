@@ -1,10 +1,4 @@
 [
-
-{
-	"name": "International Agreements",
-	"uniques": ["May enter foreign tiles without open borders", "Unable to capture cities", "Unable to pillage tiles"],
-	"unitTypes": ["Ranged Gunpowder","Gunpowder","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
-},
   {
      "name": "Spotter I",
      "prerequisites": ["Accuracy III","Barrage III"],
@@ -17,13 +11,13 @@
      "uniques": ["Can see over obstacles"],
      "unitTypes": ["Archery","Ranged Gunpowder","Siege"]
   },
-//Ships can see over obstacles once you have modern tech (not in for now)
+
   {
      "name": "Radar",
      "uniques": ["Can see over obstacles","Only available <after discovering [Radar]>"],
      "unitTypes": ["Ranged Water","Melee Water","Aircraft Carrier"]
   },
-//Extra stuff for Scouts
+
   {
      "name": "Infiltrater I",
      "prerequisites": ["Scouting III"],
@@ -42,17 +36,17 @@
      "uniques": ["Unable to capture cities","Invisible to others"],
      "unitTypes": ["Scout"]
   },
-//Move faster in your own territory, and then in foreign territory
+
   {
      "name": "Route March I",
      "prerequisites": ["Accuracy II","Barrage II","Shock II","Drill II"],
-     "uniques": ["[+2] Movement <in [Friendly Land] tiles>"],
+     "uniques": ["[+1] Movement <in [Friendly Land] tiles>", "[+1] Movement <in tiles without [Enemy Land]>"],
      "unitTypes": ["Mounted","Armored","Sword","Gunpowder","Siege","Archery","Ranged Gunpowder"]
   },
   {
      "name": "Route March II",
      "prerequisites": ["Route March I"],
-     "uniques": ["[+1] Movement <in tiles without [Enemy Land]>"],
+     "uniques": ["[+2] Movement <in tiles without [Enemy Land]>"],
      "unitTypes": ["Mounted","Armored","Sword","Gunpowder","Siege","Archery","Ranged Gunpowder"]
   },
   {
@@ -61,21 +55,27 @@
      "uniques": ["[+1] Movement <in [Foreign Land] tiles>"],
      "unitTypes": ["Mounted","Armored","Sword","Gunpowder","Siege","Archery","Ranged Gunpowder"]
   },
-//Gunboats, Seige weapons and bombers kill Improvements
+  {
+     "name": "Route March IV",
+     "prerequisites": ["Route March III"],
+     "uniques": ["[+1] Movement <in [Foreign Land] tiles>"],
+     "unitTypes": ["Mounted","Armored","Sword","Gunpowder","Siege","Archery","Ranged Gunpowder"]
+  },
+
   {
      "name": "Collateral Damage",
      "prerequisites": ["Volley","Siege II","Bombardment II"],
      "uniques": ["Destroys tile improvements when attacking"],
      "unitTypes": ["Siege","Bomber","Ranged Water"]
   },
-//Gunpowder units get extra attack
+
   {
      "name": "Speed Loaders",
      "prerequisites": ["Accuracy II","Barrage II","Shock II","Drill II"],
      "uniques": ["[+1] additional attacks per turn"],
      "unitTypes": ["Ranged Gunpowder","Gunpowder"]
   },
-//air mobility for land units
+
   {
      "name": "Air Mobile I",
      "prerequisites": ["Accuracy III","Barrage III","Shock III","Drill III","Scouting III"],
@@ -94,41 +94,47 @@
      "uniques": ["May Paradrop up to [+3] tiles from inside friendly territory","Only available <after discovering [Flight]>"],
      "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout"]
   },
-//Ranged units can see and shoot while embarked 
+ 
   {
      "name": "Marine Training I",
      "prerequisites": ["Accuracy III","Barrage III"],
-     "uniques": ["May attack when embarked"],
+     "uniques": ["May attack when embarked", "[+10]% Strength <when [Embarked]>"],
      "unitTypes": ["Ranged Gunpowder","Archery"]
   },
   {
      "name": "Marine Training II",
      "prerequisites": ["Marine Training I"],
-     "uniques": ["[+1] Sight <when [Embarked]>"],
+     "uniques": ["[+1] Sight <when [Embarked]>", "[+1] movement <when [Embarked]>", "[+10]% Strength <when [Embarked]>"],
      "unitTypes": ["Ranged Gunpowder","Archery"]
   },
    {
      "name": "Marine Training III",
-     "prerequisites": ["Marine Training Ii"],
-     "uniques": ["[+1] movement <when [Embarked]>"],
+     "prerequisites": ["Marine Training II"],
+     "uniques": ["[+1] Sight <when [Embarked]>", "[+1] movement <when [Embarked]>", "[+20]% Strength <when [Embarked]>"],
      "unitTypes": ["Ranged Gunpowder","Archery"]
   },
   {
-     "name": "Level I",
+     "name": "Rank I",
      "uniques": ["[+25]% XP gained from combat", "[+10]% Strength"],
      "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
   },
   {
-     "name": "Level II",
-     "prerequisites": ["Level I"],
+     "name": "Rank II",
+     "prerequisites": ["Rank I"],
      "uniques": ["[+33]% XP gained from combat", "[+15]% Strength"],
      "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
   },
- {
-     "name": "Level III",
-     "prerequisites": ["Level II"],
-     "uniques": ["[+33]% XP gained from combat", "[+10]% Strength"],
+  {
+     "name": "Rank III",
+     "prerequisites": ["Rank II"],
+     "uniques": ["[+50]% XP gained from combat", "[+25]% Strength"],
      "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
-  },	
+  },
+  {
+     "name": "Post Rank",
+     "prerequisites": ["Rank III"],
+     "uniques": ["[+1] Sight", "[+1] Movement", "[+75]% XP gained from combat"
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
+  },
 ]
 
