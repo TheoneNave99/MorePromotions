@@ -135,7 +135,8 @@
      "prerequisites": ["Rank III"],
      "uniques": ["[+1] Sight", "[+1] Movement", "[+75]% XP gained from combat"
      "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"],
-  },
+       }
+  
   
 ]
 
