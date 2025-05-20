@@ -98,13 +98,13 @@
   {
      "name": "Marine Training II",
      "prerequisites": ["Marine Training I"],
-     "uniques": ["[+1] Sight <when [Embarked]>", "[+1] movement <when [Embarked]>", "[+10]% Strength <when [Embarked]>"],
+     "uniques": ["[+1] Sight <when [Embarked]>", "[+1] Movement <when [Embarked]>", "[+10]% Strength <when [Embarked]>"],
      "unitTypes": ["Ranged Gunpowder","Archery"]
   },
    {
      "name": "Marine Training III",
      "prerequisites": ["Marine Training II"],
-     "uniques": ["[+1] Sight <when [Embarked]>", "[+1] movement <when [Embarked]>", "[+20]% Strength <when [Embarked]>"],
+     "uniques": ["[+1] Sight <when [Embarked]>", "[+1] Movement <when [Embarked]>", "[+20]% Strength <when [Embarked]>"],
      "unitTypes": ["Ranged Gunpowder","Archery"]
   },
   {
@@ -132,7 +132,7 @@
   },
   {
      "name": "Offensive Drills II",
-     "prerequisites": ["Offensive Drills I"],
+     "prerequisites": ["Offensive Drills"],
      "uniques": ["[+25]% Strength <when attacking>"],
      "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
   },
@@ -144,7 +144,7 @@
   },
   {
      "name": "Defensive Drills II",
-     "prerequisites": ["Defensive Drills I"],
+     "prerequisites": ["Defensive Drills"],
      "uniques": ["[+25]% Strength <when defending>"],
      "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
   },
