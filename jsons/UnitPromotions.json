@@ -55,12 +55,6 @@
      "uniques": ["[+1] Movement <in [Foreign Land] tiles>"],
      "unitTypes": ["Mounted","Armored","Sword","Gunpowder","Siege","Archery","Ranged Gunpowder"]
   },
-  {
-     "name": "Route March IV",
-     "prerequisites": ["Route March III"],
-     "uniques": ["[+1] Movement <in [Foreign Land] tiles>"],
-     "unitTypes": ["Mounted","Armored","Sword","Gunpowder","Siege","Archery","Ranged Gunpowder"]
-  },
 
   {
      "name": "Collateral Damage",
@@ -131,12 +125,28 @@
      "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
   },
   {
-     "name": "Post Rank",
-     "prerequisites": ["Rank III"],
-     "uniques": ["[+1] Sight", "[+1] Movement", "[+75]% XP gained from combat"]
-     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"],
-       },
-  
-  
+     "name": "Offensive Drills",
+     "prerequisites": ["Rank II"],
+     "uniques": ["[+25]% Strength <when attacking>"],
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
+  },
+  {
+     "name": "Offensive Drills II",
+     "prerequisites": ["Offensive Drills I"],
+     "uniques": ["[+25]% Strength <when attacking>"],
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
+  },
+    {
+     "name": "Defensive Drills",
+     "prerequisites": ["Rank II"],
+     "uniques": ["[+25]% Strength <when defending>"],
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
+  },
+  {
+     "name": "Defensive Drills II",
+     "prerequisites": ["Defensive Drills I"],
+     "uniques": ["[+25]% Strength <when defending>"],
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
+  },
 ]
 
