@@ -179,7 +179,7 @@
   },
   {
      "name": "Raider I",
-     "uniques": ["[+25]% Yield from pillaging tiles, No movement cost to pillage"],
+     "uniques": ["[+25]% Yield from pillaging tiles", "No movement cost to pillage"],
      "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water"]
   },
   {
