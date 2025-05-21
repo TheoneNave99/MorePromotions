@@ -150,7 +150,7 @@
   {
      "name": "Community Defender",
      "prerequisites": ["Post Rank"],
-     "uniques": ["[+3] Sight", "Can see over obstacles", "[+5]% Strength bonus for [Military] units within [4] tiles",],
+     "uniques": ["[+3] Sight", "Can see over obstacles", "[+10]% Strength bonus for [Military] units within [2] tiles"],
      "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
   },
   {
