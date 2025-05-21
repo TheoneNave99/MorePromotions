@@ -40,22 +40,21 @@
   {
      "name": "Route March I",
      "prerequisites": ["Accuracy II","Barrage II","Shock II","Drill II"],
-     "uniques": ["[+1] Movement <in [Friendly Land] tiles>", "[+1] Movement <in tiles without [Enemy Land]>"],
+     "uniques": ["[+2] Movement <in [Friendly Land] tiles>"],
      "unitTypes": ["Mounted","Armored","Sword","Gunpowder","Siege","Archery","Ranged Gunpowder"]
   },
   {
      "name": "Route March II",
      "prerequisites": ["Route March I"],
-     "uniques": ["[+2] Movement <in tiles without [Enemy Land]>"],
+     "uniques": ["[+1] Movement"],
      "unitTypes": ["Mounted","Armored","Sword","Gunpowder","Siege","Archery","Ranged Gunpowder"]
   },
   {
      "name": "Route March III",
      "prerequisites": ["Route March II"],
-     "uniques": ["[+1] Movement <in [Foreign Land] tiles>"],
+     "uniques": ["[+1] Movement"],
      "unitTypes": ["Mounted","Armored","Sword","Gunpowder","Siege","Archery","Ranged Gunpowder"]
   },
-
   {
      "name": "Collateral Damage",
      "prerequisites": ["Volley","Siege II","Bombardment II"],
@@ -98,7 +97,7 @@
   {
      "name": "Marine Training II",
      "prerequisites": ["Marine Training I"],
-     "uniques": ["[+1] Sight <when [Embarked]>", "[+1] Movement <when [Embarked]>", "[+10]% Strength <when [Embarked]>"],
+     "uniques": ["[+1] Sight <when [Embarked]>", "[+1] Movement <when [Embarked]>", "[+20]% Strength <when [Embarked]>"],
      "unitTypes": ["Ranged Gunpowder","Archery"]
   },
    {
@@ -107,26 +106,38 @@
      "uniques": ["[+1] Sight <when [Embarked]>", "[+1] Movement <when [Embarked]>", "[+20]% Strength <when [Embarked]>"],
      "unitTypes": ["Ranged Gunpowder","Archery"]
   },
+  	{
+		"name": "Amphibious II",
+		"prerequisites": ["Amphibious"],
+		"uniques": ["[+2] Movement <when [Embarked]>"],
+		"unitTypes": ["Sword","Gunpowder"],
+	},
   {
      "name": "Rank I",
-     "uniques": ["[+25]% XP gained from combat", "[+10]% Strength"],
+     "uniques": ["[+20]% XP gained from combat", "[+10]% Strength"],
      "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
   },
   {
      "name": "Rank II",
      "prerequisites": ["Rank I"],
-     "uniques": ["[+33]% XP gained from combat", "[+15]% Strength"],
+     "uniques": ["[+40]% XP gained from combat", "[+10]% Strength"],
      "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
   },
   {
      "name": "Rank III",
      "prerequisites": ["Rank II"],
-     "uniques": ["[+50]% XP gained from combat", "[+25]% Strength"],
+     "uniques": ["[+60]% XP gained from combat", "[+10]% Strength"],
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
+  },
+    {
+     "name": "Post Rank",
+     "prerequisites": ["Rank III"],
+     "uniques": ["[+50]% XP gained from combat", "[+1] Movement", "[+1] Sight"],
      "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
   },
   {
      "name": "Offensive Drills",
-     "prerequisites": ["Rank II"],
+     "prerequisites": ["Rank III"],
      "uniques": ["[+25]% Strength <when attacking>"],
      "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
   },
@@ -138,7 +149,7 @@
   },
     {
      "name": "Defensive Drills",
-     "prerequisites": ["Rank II"],
+     "prerequisites": ["Rank III"],
      "uniques": ["[+25]% Strength <when defending>"],
      "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
   },
