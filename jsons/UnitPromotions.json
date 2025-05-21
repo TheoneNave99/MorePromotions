@@ -15,7 +15,7 @@
   {
      "name": "Radar",
      "uniques": ["Can see over obstacles","Only available <after discovering [Radar]>"],
-     "unitTypes": ["Ranged Water","Melee Water","Aircraft Carrier"]
+     "unitTypes": ["Ranged Water","Melee Water","Armored","Aircraft Carrier"]
   },
 
   {
@@ -106,12 +106,12 @@
      "uniques": ["[+1] Sight <when [Embarked]>", "[+1] Movement <when [Embarked]>", "[+20]% Strength <when [Embarked]>"],
      "unitTypes": ["Ranged Gunpowder","Archery"]
   },
-  	{
-		"name": "Amphibious II",
-		"prerequisites": ["Amphibious"],
-		"uniques": ["[+2] Movement <when [Embarked]>"],
-		"unitTypes": ["Sword","Gunpowder"],
-	},
+  {
+	"name": "Amphibious II",
+	"prerequisites": ["Amphibious"],
+	"uniques": ["[+2] Movement <when [Embarked]>"],
+	"unitTypes": ["Sword","Gunpowder"],
+  },
   {
      "name": "Rank I",
      "uniques": ["[+20]% XP gained from combat", "[+10]% Strength"],
@@ -132,7 +132,25 @@
     {
      "name": "Post Rank",
      "prerequisites": ["Rank III"],
-     "uniques": ["[+50]% XP gained from combat", "[+1] Movement", "[+1] Sight"],
+     "uniques": ["[+25]% XP gained from combat", "[+1] Movement", "[+1] Sight"],
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
+  },
+  {
+     "name": "Community Sway",
+     "prerequisites": ["Post Rank"],
+     "uniques": ["Prevents spreading of religion to the city it is next to"],
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
+  },
+  {
+     "name": "Community Support",
+     "prerequisites": ["Post Rank"],
+     "uniques": ["[-100]% maintenance costs", "[-75]% Gold cost of upgrading"],
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
+  },
+  {
+     "name": "Community Defender",
+     "prerequisites": ["Post Rank"],
+     "uniques": ["[+3] Sight", "Can see over obstacles", "[+5]% Strength bonus for [Military] units within [4] tiles",],
      "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
   },
   {
@@ -144,7 +162,7 @@
   {
      "name": "Offensive Drills II",
      "prerequisites": ["Offensive Drills"],
-     "uniques": ["[+25]% Strength <when attacking>"],
+     "uniques": ["[+25]% Strength <when attacking>", "[+1] Movement"],
      "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
   },
     {
@@ -156,8 +174,25 @@
   {
      "name": "Defensive Drills II",
      "prerequisites": ["Defensive Drills"],
-     "uniques": ["[+25]% Strength <when defending>"],
+     "uniques": ["[+25]% Strength <when defending>", "[+1] Sight"],
      "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
+  },
+  {
+     "name": "Raider I",
+     "uniques": ["[+25]% Yield from pillaging tiles, No movement cost to pillage"],
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water"]
+  },
+  {
+     "name": "Raider II",
+     "prerequisites": ["Raider I"],
+     "uniques": ["[+25]% Yield from pillaging tiles", "Earn [10]% of killed [Military] unit's [Cost] as [Gold]"],
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water"]
+  },
+  {
+     "name": "Raider III",
+     "prerequisites": ["Raider II"],
+     "uniques": ["[+50]% Yield from pillaging tiles", "[+25]% Health from pillaging tiles", "Upon capturing a city, receive [3] times its [Gold] production as [Gold] immediately"],
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water"]
   },
 ]
 
