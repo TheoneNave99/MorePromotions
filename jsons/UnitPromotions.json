@@ -15,7 +15,7 @@
   {
      "name": "Radar",
      "uniques": ["Can see over obstacles","Only available <after discovering [Radar]>"],
-     "unitTypes": ["All"]
+     "unitTypes": ["Melee Water", "Ranged Water", "Aircraft Carrier", "Armored"]
   },
 
   {
