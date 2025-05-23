@@ -15,12 +15,12 @@
   {
      "name": "Radar",
      "uniques": ["Can see over obstacles","Only available <after discovering [Radar]>"],
-     "unitTypes": ["Ranged Water","Melee Water","Armored","Aircraft Carrier"]
+     "unitTypes": ["All"]
   },
 
   {
      "name": "Infiltrater I",
-     "prerequisites": ["Scouting III"],
+     "prerequisites": ["Rank I"],
      "uniques": ["Can pass through impassable tiles"],
      "unitTypes": ["Scout"]
   },
@@ -39,7 +39,7 @@
 
   {
      "name": "Route March I",
-     "prerequisites": ["Accuracy II","Barrage II","Shock II","Drill II"],
+     "prerequisites": ["Rank II"],
      "uniques": ["[+2] Movement <in [Friendly Land] tiles>"],
      "unitTypes": ["Mounted","Armored","Sword","Gunpowder","Siege","Archery","Ranged Gunpowder"]
   },
@@ -71,7 +71,7 @@
 
   {
      "name": "Air Mobile I",
-     "prerequisites": ["Accuracy III","Barrage III","Shock III","Drill III","Scouting III"],
+     "prerequisites": ["Post Rank"],
      "uniques": ["May Paradrop up to [+2] tiles from inside friendly territory","Only available <after discovering [Flight]>"],
      "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout"]
   },
@@ -90,7 +90,7 @@
  
   {
      "name": "Marine Training I",
-     "prerequisites": ["Accuracy III","Barrage III"],
+     "prerequisites": ["Rank II"],
      "uniques": ["May attack when embarked", "[+10]% Strength <when [Embarked]>"],
      "unitTypes": ["Ranged Gunpowder","Archery"]
   },
@@ -107,8 +107,7 @@
      "unitTypes": ["Ranged Gunpowder","Archery"]
   },
   {
-	"name": "Amphibious II",
-	"prerequisites": ["Amphibious"],
+	"name": "Quick Vessels",
 	"uniques": ["[+2] Movement <when [Embarked]>"],
 	"unitTypes": ["Sword","Gunpowder"],
   },
@@ -142,15 +141,21 @@
      "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
   },
   {
-     "name": "Community Support",
-     "prerequisites": ["Post Rank"],
-     "uniques": ["[-100]% maintenance costs", "[-75]% Gold cost of upgrading"],
-     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
-  },
-  {
      "name": "Community Defender",
      "prerequisites": ["Post Rank"],
      "uniques": ["[+3] Sight", "Can see over obstacles", "[+10]% Strength bonus for [Military] units within [2] tiles"],
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
+  },
+  {
+     "name": "Community Builder",
+     "prerequisites": ["Post Rank"],
+     "uniques": ["Can build [All] improvements on tiles", "Can build [All] improvements at a [+100]% rate"],
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
+  },
+  {
+     "name": "Martyr",
+     "prerequisites": ["Post Rank"],
+     "uniques": ["Can generate a large amount of culture <by consuming this unit>"],
      "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
   },
   {
@@ -165,6 +170,12 @@
      "uniques": ["[+25]% Strength <when attacking>", "[+1] Movement"],
      "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
   },
+  {
+     "name": "Offensive Mastery",
+     "prerequisites": ["Offensive Drills II"],
+     "uniques": ["[+25]% Strength <when attacking>", "[+50]% Strength bonus for [Siege] units within [3] tiles"],
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
+  },
     {
      "name": "Defensive Drills",
      "prerequisites": ["Rank III"],
@@ -175,6 +186,12 @@
      "name": "Defensive Drills II",
      "prerequisites": ["Defensive Drills"],
      "uniques": ["[+25]% Strength <when defending>", "[+1] Sight"],
+     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
+  },
+  {
+     "name": "Capital Guards",
+     "prerequisites": ["Defensive Drills II"],
+     "uniques": ["[+50]% Strength decreasing with distance from the capital", "[+1] Sight"],
      "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout","Ranged Water","Melee Water","Aircraft Carrier"]
   },
   {
